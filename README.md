@@ -42,4 +42,6 @@ The following files are required to exist:
 
 Trained models can be downloaded from here:
 https://figshare.com/projects/DiffCDD/232655
-After download, moved the files in each folder to their corresponding Models folder.
+
+
+After download, move the files in each folder to their corresponding Models folder.
