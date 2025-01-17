@@ -11,7 +11,7 @@ There are two seperate folders, one implements CovaGen-uncond and CovaGen-cond, 
   - [Train](#train)
   - [Inference](#inference)
   - [Dataset](#dataset)
-  - [Models and Files](#Models and Files)
+  - [Models and Files](#Models-and-Files)
 ## Installation
 
 ```bash
