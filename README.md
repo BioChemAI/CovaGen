@@ -1,6 +1,6 @@
 # CovaGen
 
-This is the official implementation of the paper "CovaGen: Exploring Covalent Drug Design With Reinforced Latent Diffusion Models".
+This is the implementation of the paper "A Deep Generative Approach to \textit{de novo} Covalent Drug Design with Enhanced Drug-likeness and Safety".
 There are two seperate folders, one implements CovaGen-uncond and CovaGen-cond, and the other one is CovaGen-guide and CovaGen-rl
 
 ## Table of Contents
@@ -10,7 +10,8 @@ There are two seperate folders, one implements CovaGen-uncond and CovaGen-cond, 
 - [Develop](#develop)
   - [Train](#train)
   - [Inference](#inference)
-
+  - [Dataset](#dataset)
+  - [Models and Files](#Models and Files)
 ## Installation
 
 ```bash
