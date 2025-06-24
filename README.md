@@ -2,7 +2,8 @@
 
 This is the implementation of the paper "A Deep Generative Approach to \textit{de novo} Covalent Drug Design with Enhanced Drug-likeness and Safety".
 There are two seperate folders, one implements CovaGen-uncond and CovaGen-cond, and the other one is CovaGen-guide and CovaGen-rl.
-<font size="5">This is the overall README, please refer to the README.md in each separate folder for a more detailed usage instruction!</font>
+
+##This is the overall README, please refer to the README.md in each separate folder for a more detailed usage instruction!</font>
 
 ## Table of Contents
 
