@@ -33,7 +33,7 @@ Decode latent vectors into molecules
 ```
 python scripts/decode_save_single.py --sampled_vec saved/path/ --save_path_10k path/to/valid/SMILES --save_path_full path/to/all/SMILES --vae_path ./Models/080_NOCHANGE_evenhigherkl.ckpt
 ```
-CovaGen
+
 #### CovaGen-cond
 Sample for a single protein target, Input the protein sequence instead.
 ```
