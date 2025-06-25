@@ -1,5 +1,5 @@
 # CovaGen-guide, CovaGen-rl and CovaGen
-This part is used for the sampling of CovaGen-rl and CovaGen-guide
+This part is used for the training and sampling of CovaGen-rl and CovaGen-guide
 
 # Usage
 Use the script scripts/rl_train_sample_guided.py and scripts/rl_sample_guided_singleseq.py for sampling.
@@ -24,4 +24,12 @@ Note that you need to stop these scripts manually to finish the sampling procedu
 Use scripts/rl_train_sample_guided.py instead, with same parameters except don't specify the protein sequence.
 The processed Crossdocked2020 test set should be downloaded and moved to the Models folder here.
 
-Note that you need to stop these scripts manually to finish the sampling procedure, they saves generated molecules while running.
+Note that you need to stop these scripts manually to finish the sampling procedure, where generated molecules are saved while running.
+
+## Training
+To fine-tune the model on your scoring function, please go to the training folder. Run this to start training, trained models are saved in the log dir.
+```
+python rl_train.py   --classifier_path path/to/classifier --model_path path/to/diffusion/model --vae_dir path/of/trained/vae 
+    --log_dir path/for/saving/finetuned/pkl --data_dir path/of/crossdocked/dataset
+    --class_cond False --rescale_timesteps False --diffusion_steps 300 --noise_schedule linear --classifier_scale 0 
+```
