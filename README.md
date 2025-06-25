@@ -3,7 +3,7 @@
 This is the implementation of the paper "A Deep Generative Approach to \textit{de novo} Covalent Drug Design with Enhanced Drug-likeness and Safety".
 There are two seperate folders, one implements CovaGen-uncond and CovaGen-cond, and the other one is CovaGen-guide and CovaGen-rl.
 
-## This is the overall README, please refer to the README.md in each separate folder for a more detailed usage instruction!</font>
+### This is the overall README, please refer to README_uncond_cond.md and README_rl_guide.md for a more detailed usage instruction
 
 ## Table of Contents
 
@@ -21,14 +21,13 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-For a more detailed usage instruction, please refer to the README.md in each separate folder.
-
+For a more detailed usage instruction, please refer to the README_uncond_cond.md and README_rl_guide.md 
 
 ### Train
 >The trained models are provided in the repository at 'CovaGen/CovaGen_uncond_cond/Models' and 'CovaGen/CovaGen_rl_guide/Models'.
 
 ### Inference
-Please refer to the README.md in each separate folder.
+Please refer to the README_uncond_cond.md and README_rl_guide.md 
 
 ### Dataset
 #### CrossDocked Dataset (Index by [3D-Generative-SBDD](https://github.com/luost26/3D-Generative-SBDD))
