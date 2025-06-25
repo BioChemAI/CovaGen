@@ -2,7 +2,7 @@
 
 # Usage
 
-This section is about sampling with CovaGen-uncond and CovaGen-cond
+This section is about sampling and training procedure of CovaGen-uncond and CovaGen-cond
 
 # CovaGen-uncond
 Unconditional generation, first sample and save latent vectors,this generates 5000 latent vectors
