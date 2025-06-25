@@ -5,6 +5,7 @@
 This section is about sampling and training procedure of CovaGen-uncond and CovaGen-cond
 
 # CovaGen-uncond
+## Sampling
 Unconditional generation, first sample and save latent vectors,this generates 5000 latent vectors
 ```
 python scripts/pl_sample_t_uncond  --model_path ./Models/uncond_model004200.pt --save_path wherever/you/like.pkl --diffusion_steps 200 --noise_schedule linear --rescale_timesteps False
