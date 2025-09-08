@@ -1,5 +1,11 @@
 # CovaGen: De Novo Covalent Drug Generation
 
+![GitHub license](https://img.shields.io/github/license/BioChemAI/CovaGen.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/BioChemAI/CovaGen.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/BioChemAI/CovaGen)
+![GitHub forks](https://badgen.net/github/forks/BioChemAI/CovaGen)
+![GitHub stars](https://img.shields.io/github/stars/BioChemAI/CovaGen.svg)
+
 This repository provides the implementation for the paper:  
 **"A Deep Generative Approach to _de novo_ Covalent Drug Design with Enhanced Drug-likeness and Safety"**.
 ## 🧩 Repository Structure
