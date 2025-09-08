@@ -78,8 +78,11 @@ if __name__ == '__main__':##
 
     # with open(args.index_json, 'r') as f:
     #     index_list = json.load(f)
+    # with open(args.index_protein, "r") as f:
+    #     index_things = pickle.load(f)
     with open(args.index_protein, "r") as f:
-        index_things = pickle.load(f)
+        index_things = json.load(f)
+    
     evaluate_src_hash_set = EvaluateSrcHashSet()
 
     logging.info("Collect evaluate src...")
