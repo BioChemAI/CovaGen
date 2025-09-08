@@ -49,7 +49,6 @@ python results/Docking/evaluate_arrange.py --decoded path to molecules saved by 
 python results/Docking/evaluate.collect.py  --sample-smiles-json  |output of evalate_arrange.py \\ 
                                     --collect-pkl   |output path, in .pickle format \\
                                     --data-dir  |path to your CrossDock2020 dataset folder \\ 
-                                    --index-json  |The file index.json is provided in folder.  
                                     --receptor protein  | \\
                                     --receptor-box pocket | \\
                                     --ref-from-smiles  | \\
