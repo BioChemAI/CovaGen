@@ -1,4 +1,4 @@
-# CovaGen: Deep Generative De Novo Covalent Drug Design
+# CovaGen: De Novo Covalent Drug Generation
 
 This repository provides the implementation for the paper:  
 **"A Deep Generative Approach to _de novo_ Covalent Drug Design with Enhanced Drug-likeness and Safety"**.
