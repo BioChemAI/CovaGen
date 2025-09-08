@@ -12,8 +12,8 @@ import random
 import numpy as np
 from typing import Generator, Hashable, Union, List
 
-from myTypes import StrPath
-
+# from myTypes import StrPath
+StrPath = Union[str, Path]
 def use_path(dir_path: StrPath = None, file_path: StrPath = None, new: bool = True) -> Path:
 
     assert sum((dir_path is None, file_path is None)) == 1, \
