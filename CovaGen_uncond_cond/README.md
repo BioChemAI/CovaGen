@@ -52,7 +52,7 @@ python results/Docking/evaluate.collect.py  --sample-smiles-json  |output of eva
                                     --receptor protein  | \\
                                     --receptor-box pocket | \\
                                     --ref-from-smiles  | \\
-                                    --index-protein the file protein_filepath.json is provided in folder.
+                                    --index-protein ./results/Docking/protein_filepath.json
 ```
 ```
 python results/Docking/evaluate.collect.smiles_db.py  --collect-pkl  |output of evaluate.collect.py \\
