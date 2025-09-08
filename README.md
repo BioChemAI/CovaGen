@@ -19,15 +19,6 @@ For detailed usage instructions, please also refer to:
 - [README for CovaGen-uncond and CovaGen-cond](./CovaGen_uncond_cond/README.md)  
 - [README for CovaGen-rl and CovaGen-guide](./CovaGen_rl_guide/README.md)  
 
-## 📑 Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Develop](#develop)
-  - [Train](#train)
-  - [Inference](#inference)
-  - [Dataset](#dataset)
-  - [Models and Files](#Models-and-Files)
 ## ⚙️ Installation
 
 ```bash
